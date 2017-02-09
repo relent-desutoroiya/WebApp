@@ -15,7 +15,7 @@ echo<<<end
 END;
 }
 function ui_print_footer($date){
-  $date=htmlidentities($date);
+  $date=htmlentities($date);
 echo<<<END
 <div class="footer">
   <div class="date">$date</div>
